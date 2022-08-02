@@ -8,7 +8,7 @@ namespace DecoratorPattern.Base
 {
     public class Client
     {
-        public void ClientCode(IComponent component)
+        public void ClientCode(Component component)
         {
             Console.WriteLine("RESULT: " + component.Operation());
         }

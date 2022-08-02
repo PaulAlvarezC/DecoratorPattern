@@ -8,7 +8,7 @@ namespace DecoratorPattern.Base
 {
     public class ConcreteDecoratorA : Decorator
     {
-        public ConcreteDecoratorA(IComponent component) : base(component)
+        public ConcreteDecoratorA(Component component) : base(component)
         {
         }
 

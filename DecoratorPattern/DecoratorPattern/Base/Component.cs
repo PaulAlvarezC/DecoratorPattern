@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DecoratorPattern.Base
 {
-    public abstract class IComponent
+    public abstract class Component
     {
         public abstract string Operation();
     }

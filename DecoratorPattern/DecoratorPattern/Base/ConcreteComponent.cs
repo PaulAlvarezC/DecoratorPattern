@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DecoratorPattern.Base
 {
-    public class ConcreteComponent : IComponent
+    public class ConcreteComponent : Component
     {
         public override string Operation()
         {
