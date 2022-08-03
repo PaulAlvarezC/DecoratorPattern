@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Component\" />
+    <None Remove="ConcretComponent\" />
+    <None Remove="Decorator\" />
+    <None Remove="ConcretDecorators\" />
+    <None Remove="Client\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Component\" />
+    <Folder Include="ConcretComponent\" />
+    <Folder Include="Decorator\" />
+    <Folder Include="ConcretDecorators\" />
+    <Folder Include="Client\" />
+  </ItemGroup>
+</Project>
