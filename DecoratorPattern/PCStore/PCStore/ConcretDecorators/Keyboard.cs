@@ -19,9 +19,9 @@ namespace PCStore.ConcretDecorators
             return this.currentComputer.CalculateCost() + price;
         }
 
-        public override string DetailPc()
+        public override string ShowDescriptions()
         {
-            return this.currentComputer.DetailPc() + "\nNuevo Teclado: $" + price + " USD";
+            return this.currentComputer.ShowDescriptions() + "\nNuevo Teclado: $" + price + " USD";
         }
     }
 }

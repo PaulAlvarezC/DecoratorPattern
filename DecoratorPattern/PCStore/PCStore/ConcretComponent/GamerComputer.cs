@@ -17,7 +17,7 @@ namespace PCStore.ConcretComponent
             return cost;
         }
 
-        public override string DetailPc()
+        public override string ShowDescriptions()
         {
             return "\nComputadora Gamer: \n" +
                 "Procesador: $" + processor + " USD \n" +

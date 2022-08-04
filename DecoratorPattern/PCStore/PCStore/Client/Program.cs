@@ -16,7 +16,7 @@ namespace PCStore.Client
             gammerPC = new FastGraphic(gammerPC);
 
             var cost = gammerPC.CalculateCost();
-            var details = gammerPC.DetailPc();
+            var details = gammerPC.ShowDescriptions();
 
             Console.WriteLine(string.Format("Detalles: \n {0}", details));
             Console.WriteLine(string.Format("El Coste del PC es de $ {0} USD.", cost));
